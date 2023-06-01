@@ -1,0 +1,28 @@
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.nav-link{
+    font-size:20px;
+    font-weight:bold; 
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #FDC830;  /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:2px;
+    border:.5px solid black;
+    border-radius:8px;
+}
+.carousel-item{
+    margin-bottom:35px;
+}
+.color{
+    color:#F37335;
+}
+.decoration{
+    text-decoration:none;
+    cursor: pointer;
+}
+.card-body{
+    text-align:center;
+}
